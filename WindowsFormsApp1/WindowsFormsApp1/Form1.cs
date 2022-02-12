@@ -16,5 +16,13 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e) =>
+            MessageBox.Show(textBox1.Text, 
+                "Information",
+                MessageBoxButtons.OK, 
+                MessageBoxIcon.Information);
+
+        private void button2_Click(object sender, EventArgs e) => Application.Exit();
     }
 }
